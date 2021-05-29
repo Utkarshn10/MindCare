@@ -1,7 +1,7 @@
 .NavbarItems {
   /* background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73,63,252,1) 100%); */
   /* background-color: rgba(73,63,252,1); */
-  background-color: #f98282;
+  background-color: #85c872;
   height: 80px;
   display: flex;
   /* justify-content: left; */
@@ -50,8 +50,7 @@
   margin-left: 0px;
   /* padding-left: 7rem; */
 
-  margin-left: 4.0rem;
-  
+  margin-left: 4rem;
 }
 
 .nav-links {

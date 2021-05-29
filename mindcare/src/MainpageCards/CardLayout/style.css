@@ -1,8 +1,14 @@
-.maincont{
-    background: red;
+.maincont {
+  background: red;
 }
-.cont{
-    display: flex;
-    justify-content: center;
-    contain: content;
+.cont {
+  display: flex;
+  justify-content: center;
+  contain: content;
+}
+.fea {
+  display: flex;
+  justify-content: center;
+  contain: content;
+  padding-top: 1rem;
 }

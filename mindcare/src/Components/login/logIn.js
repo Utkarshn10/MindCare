@@ -71,7 +71,7 @@ export default function SignInSide() {
       <Grid item xs={false} sm={4} md={7} className={classes.image} />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
-          <img src={logoapp} className="login-logo" alt="logo" />
+          {/* <img src={logoapp} className="login-logo" alt="logo" /> */}
           <div>
             <br></br>
             <br></br>

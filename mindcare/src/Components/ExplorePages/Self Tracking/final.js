@@ -68,8 +68,8 @@ function showdown() {
                 <FinalSlider />
               </div>
               <div class="forbutton">
-                <Link to="/homepage" className="">
-                  Take a Break
+                <Link to="/post/1" className="">
+                  Take a Break and read some Blogs!
                 </Link>
               </div>
               <div class="forbutton">

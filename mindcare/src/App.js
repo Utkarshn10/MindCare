@@ -2,6 +2,7 @@ import "./App.css";
 import React, {Component} from "react";
 import Main from "./main";
 import {HashRouter as Router, Switch, Route} from "react-router-dom";
+import Post from "../src/Components/ExplorePages/Blogs/BlogMain";
 import SignInSide from "./Components/login/logIn";
 import FirstTest from "../src/Components/Assessment/src/index-assessment";
 import SelfTrack from "../src/Components/ExplorePages/Self Tracking/welcome";
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <Route exact path="/" component={Main}></Route>
         <Route exact path="/homepage" component={PatientHomePage}></Route>
+        <Route path="/post/:postId" component={Post} />
         <Route exact path="/signup" component={SignInSide}></Route>
         <Route exact path="/assessment" component={FirstTest}></Route>
         <Route exact path="/selfTracking" component={SelfTrack}></Route>

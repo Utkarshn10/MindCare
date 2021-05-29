@@ -11,11 +11,9 @@ const Footer = () => {
               <h4>Menu</h4>
               <ul className="list-unstyled">
                 <li>About</li>
-                <Link to="/post/1">
+                {/* <Link to="/post/1">
                   <li>Blog</li>
-                </Link>
-                <li>Games</li>
-                <li>Contact us</li>
+                </Link> */}
               </ul>
             </div>
             <div className="col">
@@ -37,7 +35,7 @@ const Footer = () => {
             <div className="col">
               <h4>Support</h4>
               <ul className="list-unstyled">
-                <li>help@soothe.com</li>
+                <li>help@mindcare.com</li>
                 <li>(011)12345678</li>
               </ul>
             </div>
@@ -49,12 +47,14 @@ const Footer = () => {
         <div className="container2">
           <div className="Footer-icon">
             <div className="row">
-              <h1>Soothe</h1>
+              <h1>MindCare</h1>
             </div>
           </div>
           <hr />
           <div className="row">
-            <p className="col-sm ">Copyright © Soothe | All right reserved.</p>
+            <p className="col-sm ">
+              Copyright © MindCare | All right reserved.
+            </p>
             <p> Terms of Service</p>
           </div>
         </div>
