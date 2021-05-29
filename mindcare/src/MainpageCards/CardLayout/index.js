@@ -13,7 +13,7 @@ class CardLayout extends Component {
     return (
       <div className="manincont">
         <div>
-          <h1 className="fea">Features</h1>
+          <h1 className="fea1">Features</h1>
         </div>
         <div className="container-fluid d-flex justify-content-center">
           <div className="row">
