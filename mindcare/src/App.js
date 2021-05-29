@@ -1,6 +1,8 @@
 import "./App.css";
 import React, {Component} from "react";
+import Main from "./main";
 import {HashRouter as Router, Switch, Route} from "react-router-dom";
+import SignInSide from "./Components/login/logIn";
 import FirstTest from "../src/Components/Assessment/src/index-assessment";
 import SelfTrack from "../src/Components/ExplorePages/Self Tracking/welcome";
 import TypeOfDisorder from "../src/Components/ExplorePages/Self Tracking/disorderType";
@@ -10,11 +12,14 @@ import Reward from "../src/Components/ExplorePages/Self Tracking/reward";
 import CheckBack from "../src/Components/ExplorePages/Self Tracking/checkback";
 import Objective from "../src/Components/ExplorePages/Self Tracking/objective";
 import ShowDown from "../src/Components/ExplorePages/Self Tracking/final";
-
+import PatientHomePage from "./Components/PatientHomePage/PatientHomePage";
 function App() {
   return (
     <div>
       <Router>
+        <Route exact path="/" component={Main}></Route>
+        <Route exact path="/homepage" component={PatientHomePage}></Route>
+        <Route exact path="/signup" component={SignInSide}></Route>
         <Route exact path="/assessment" component={FirstTest}></Route>
         <Route exact path="/selfTracking" component={SelfTrack}></Route>
         <Route path="/selectoption" component={TypeOfDisorder}></Route>

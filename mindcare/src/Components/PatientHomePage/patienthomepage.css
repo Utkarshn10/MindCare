@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+.homepage-img-div{
+    padding-bottom: 15rem;
+    padding-top: 1rem;
+    
+}
+.homepage-asses-div{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 5rem;
+    box-shadow: 1px 5px 10px 1px rgba(18, 8, 77, 0.384) !important;
+}
+.assess-head-p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #285A84;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: normal ;
+
+
+    
+}
+.assess-desc{
+    margin-top: 2rem;
+}
+.assess-desc-p{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgba(4, 120, 87);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 2.2rem ;
+    letter-spacing: 0.5px;
+}
+#patienthomepage-btn{
+    background-color: #85C872;
+}
+#patienthomepage-btn:hover{
+    background-color: #85C872;
+    text-decoration: none;
+}

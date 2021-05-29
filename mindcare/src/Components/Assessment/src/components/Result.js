@@ -138,8 +138,8 @@ function Result(props) {
               0800 111 757.
             </li>
             <br></br>
-            <Link to="/explore" className="next-btn">
-              Explore
+            <Link to="/selfTracking" className="next-btn">
+              SelfTracker
             </Link>
           </ul>
         </div>
