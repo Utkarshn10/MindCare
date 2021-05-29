@@ -21,7 +21,7 @@ class CardLayout extends Component {
               <CardUi
                 imgsrc={assessment}
                 title="Assessments"
-                description="Take Free Assessment to check how mentally fit you are."
+                description="Take Free Assessment to check anxiety level."
               ></CardUi>
             </div>
 
@@ -29,7 +29,7 @@ class CardLayout extends Component {
               <CardUi
                 imgsrc={tracker}
                 title="Self Tracker"
-                description="Do you often forget about therapies and medications. We will remind you!"
+                description="Tracker for amazing new Habits !!"
               ></CardUi>
             </div>
           </div>
