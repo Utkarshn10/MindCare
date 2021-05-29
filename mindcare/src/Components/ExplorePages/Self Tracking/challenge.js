@@ -17,7 +17,7 @@ function canyouDoIt() {
       <div className="FullDivision">
         <div className="MainDivisionSid">
           <div className="SubDivision">
-            <div className="welcome-area text-area center">
+            <div className="welcome-area1 text-area center">
               <h3 class="forh1 challengeeeee">The Challenge</h3>
               <p className="text1">
                 Your extra anxiety is converted into credits.
