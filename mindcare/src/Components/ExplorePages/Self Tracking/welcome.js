@@ -3,15 +3,15 @@ import "./tracking.css";
 import image from "./image/logo6.png";
 import welcome from "./image/doctor-welcome.jpg";
 import {Link} from "react-router-dom";
-// import fullLogo from '../../../assets/fullLogo.jpeg'
+// import fullLogo from "../../../assets/fullLogo.jpeg";
 
 function greet() {
   return (
     <div>
       <h2 className="topbar">MindCare</h2>
       <div className="belowtopbar">
-        <img className="image-handle"></img>
-        <h1 class="headingheadddd">Self Tracking and Assessment Portal</h1>
+        {/* <img className="image-handle"></img> */}
+        <h1 class="headingheadddd">Assessment Portal</h1>
       </div>
 
       <div className="FullDivision">

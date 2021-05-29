@@ -1,12 +1,13 @@
 import React from "react";
 import "./tracking.css";
-import image from "./image/logo6.png" ;
+import image from "./image/logo6.png";
 import {Link} from "react-router-dom";
-import { temp } from "./checkbox2";
+import {temp} from "./checkbox2";
 import FinalSlider from "./Slider2";
 
-var salutation="Reward yourself now with a/an icecream for the hard work you've put in !!";
-var quote="Life is like an ice cream, enjoy it before it melts.";
+var salutation =
+  "Reward yourself now with a/an icecream for the hard work you've put in !!";
+var quote = "Life is like an ice cream, enjoy it before it melts.";
 
 console.log("hey there");
 console.log(temp);
@@ -41,43 +42,53 @@ console.log(temp);
 //         quote='"Think what a better world it would be if we all, the whole world, had cookies and milk about three o clock every afternoon and then lay down on our blankets for a nap"';
 //     }
 
-function showdown()
-{
-    return(
+function showdown() {
+  return (
     <div>
-    <h2 className="topbar">Soothe</h2>
-    <div className="belowtopbar">
-    <img className="image-handle" src={image}></img>
-    <h1 class="headingheadddd">Self Tracking and Assessment Portal</h1>
-    </div>
+      <h2 className="topbar">MindCare</h2>
+      <div className="belowtopbar">
+        {/* <img className="image-handle" src={image}></img> */}
+        <h1 class="headingheadddd">Self Tracking and Assessment Portal</h1>
+      </div>
 
-    <div className="FullDivision">    
-    <div className="MainDivisionSid">
-        <div className="SubDivision">
+      <div className="FullDivision">
+        <div className="MainDivisionSid">
+          <div className="SubDivision">
             <div className="welcome-area text-area">
-            <h2 className="jobtext">Great Job</h2>
-            <p className="salutationtext">{salutation}</p>
-            <p className="quotetext">{quote}</p>
+              <h2 className="jobtext">Great Job</h2>
+              <p className="salutationtext">{salutation}</p>
+              <p className="quotetext">{quote}</p>
 
-            <h2 className="reviewText">Review</h2>
-            <p className="finaletext">Good job spending all your anxiety credits, you're getting better!</p>
-            <div className="handlesidddddddd">
-            <FinalSlider />
-            </div>
-            <div class="forbutton">
-            <Link to="/homepage" className="">Take a Break</Link>
-            </div>
-            <div class="forbutton">
-            <Link to="/welcome" className="">Try Again</Link>
-            </div>
+              <h2 className="reviewText">Review</h2>
+              <p className="finaletext">
+                Good job spending all your anxiety credits, you're getting
+                better!
+              </p>
+              <div className="handlesidddddddd">
+                <FinalSlider />
+              </div>
+              <div class="forbutton">
+                <Link to="/homepage" className="">
+                  Take a Break
+                </Link>
+              </div>
+              <div class="forbutton">
+                <Link to="/welcome" className="">
+                  Try Again
+                </Link>
+              </div>
             </div>
             <div className="welcome-area image-area">
-                <img class="welcome-image" src="https://thumbs.gfycat.com/GrotesqueShockedBirdofparadise-size_restricted.gif"></img>
+              <img
+                class="welcome-image"
+                src="https://thumbs.gfycat.com/GrotesqueShockedBirdofparadise-size_restricted.gif"
+              ></img>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-        </div>
-            </div>);
+  );
 }
 
 export default showdown;

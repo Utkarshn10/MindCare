@@ -2,14 +2,14 @@ import React from "react";
 import image from "./image/logo6.png";
 import {Link} from "react-router-dom";
 import CheckBoxReward from "./checkbox2";
-// import fullLogo from '../../../assets/fullLogo.jpeg'
+import fullLogo from "../../../assets/fullLogo.jpeg";
 
 function swags() {
   return (
     <div>
-      <h2 className="topbar">Soothe</h2>
+      <h2 className="topbar">MindCare</h2>
       <div className="belowtopbar">
-        <img className="image-handle"></img>
+        {/* <img className="image-handle"></img> */}
         <h1 class="headingheadddd">Self Tracking and Assessment Portal</h1>
       </div>
 

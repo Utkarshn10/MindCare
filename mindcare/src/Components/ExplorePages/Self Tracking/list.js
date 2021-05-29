@@ -1,17 +1,17 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import MenuBookIcon from '@material-ui/icons/MenuBook';
-import LiveTvIcon from '@material-ui/icons/LiveTv';
-import CreateIcon from '@material-ui/icons/Create';
+import React from "react";
+import {makeStyles} from "@material-ui/core/styles";
+import ListSubheader from "@material-ui/core/ListSubheader";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import MenuBookIcon from "@material-ui/icons/MenuBook";
+import LiveTvIcon from "@material-ui/icons/LiveTv";
+// import CreateIcon from '@material-ui/icons/Create';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    width: "100%",
     maxWidth: 360,
     backgroundColor: theme.palette.background.paper,
   },
@@ -52,13 +52,9 @@ export default function NestedList() {
         <ListItemText primary="Watch a TED Talk" />
       </ListItem>
       <ListItem button onClick={handleClick}>
-        <ListItemIcon>
-          <CreateIcon />
-        </ListItemIcon>
+        <ListItemIcon>{/* <CreateIcon /> */}</ListItemIcon>
         <ListItemText primary="Write" />
-        
       </ListItem>
-      
     </List>
   );
 }
