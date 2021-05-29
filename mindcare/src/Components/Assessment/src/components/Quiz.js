@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 // import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import {CSSTransition, TransitionGroup} from "react-transition-group";
-// import CSSTransitionGroup from "react-transition-group/CSSTransitionGroup";
-import Question from "./Question";
-import QuestionCount from "./QuestionCount";
-import AnswerOption from "./AnswerOption";
+// import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import CSSTransitionGroup from "react-transition-group/CSSTransitionGroup";
+import Question from "../components/Question";
+import QuestionCount from "../components/QuestionCount";
+import AnswerOption from "../components/AnswerOption";
 
 function Quiz(props) {
   function renderAnswerOptions(key) {
@@ -22,7 +22,7 @@ function Quiz(props) {
   }
 
   return (
-    <CSSTransition
+    <CSSTransitionGroup
       className="container"
       component="div"
       transitionName="fade"
@@ -38,7 +38,7 @@ function Quiz(props) {
           {props.answerOptions.map(renderAnswerOptions)}
         </ul>
       </div>
-    </CSSTransition>
+    </CSSTransitionGroup>
   );
 }
 

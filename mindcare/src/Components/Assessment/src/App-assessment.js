@@ -105,7 +105,8 @@ class App extends Component {
     return (
       <div className="">
         <div className="App-header-assessment">
-          <img className="App-logo-assessment" alt="logo" />
+          <h1>MindCare</h1>
+          {/* <img className="App-logo-assessment" alt="logo" /> */}
           <p className="text">Assessment</p>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
